@@ -23,6 +23,7 @@ I used some funcitons that our instructor (Junfeng Wen) developed in class, as w
 ## Wiring instructions
 * Power 5V to BB Power bus
 * Power GND to BB GND bus
+
 #### LCD screen
 * GND to BB GND bus
 * VCC to BB positive bus
@@ -34,15 +35,18 @@ I used some funcitons that our instructor (Junfeng Wen) developed in class, as w
 * SCK (Clock) to Pin 52
 * MISO (Master In Slave Out) to 50
 * LITE (Backlite) to BB positive bus
+
 #### Joystick
 * VCC to BB positive bus
 * VERT to Pin A0
 * HOR to Pin A1
 * SEL to Pin 9
 * GND to BB GND bus 
+
 #### Potentiometer
 * middle pin (slider) to Pin A2
 * outer pins: one to BB GND bus, the other one to BB Power bus
+
 #### LEDs
 * Arduino Pin 2 <--> longer LED lead |LED| Shorter LED lead  <--> Resistor <--> Arduino GND Bus
 * Arduino Pin 3 <--> longer LED lead |LED| Shorter LED lead  <--> Resistor <--> Arduino GND Bus
